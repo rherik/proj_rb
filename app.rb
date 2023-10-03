@@ -1,13 +1,13 @@
 #!/usr/bin/ruby
-class Person
-  attr_accessor :name
-  def initialize(name)
-    @name = name
+class Persona
+  attr_accessor :nombre
+  def initialize(nombre)
+    @nombre = nombre
   end
-  def diga_maiusculo
-    puts "#{@name}, o que você quer falar em caixa alta?"
+  def habla_mayusculas
+    puts "#{@nombre}, o que tu queres hablar en mayúsculas?"
     texto = gets
-    puts "#{@name}, seu texto em maiúsculo é: #{texto.upcase}"
+    puts "#{@nombre}, su texto en mayúsculas es: #{texto.upcase}"
   end
   
 end
